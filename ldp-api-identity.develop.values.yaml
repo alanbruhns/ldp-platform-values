@@ -3,7 +3,7 @@
 replicaCount: 1
 
 image:
-  repository: alanbruhns/ldp-identity-api
+  repository: alanbruhns/ldpidentityapi
   tag: "latest"  # This will be updated dynamically by the GitHub Actions pipeline
   pullPolicy: IfNotPresent
 

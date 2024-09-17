@@ -1,0 +1,7 @@
+environment: main
+
+apps:
+  ldp-api-identity:
+    source:
+      values:
+        environment: main

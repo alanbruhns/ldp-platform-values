@@ -1,0 +1,7 @@
+environment: develop
+
+apps:
+  ldp-api-identity:
+    source:
+      values:
+        environment: develop

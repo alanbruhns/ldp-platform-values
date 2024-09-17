@@ -1,9 +1,4 @@
 environment: develop
 
 apps:
-  ldp-api-identity:
-    source:
-      values:
-        environment: develop
-        image:
-          tag: latest
+  - ldp-api-identity

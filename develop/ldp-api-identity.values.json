@@ -1,0 +1,13 @@
+{
+  "repo": "ldp-identity-api",
+  "image": {
+    "repository": "docker.io/alanbruhns/ldp-api-identity",
+    "tag": "1.0.4"
+  },
+  "service": {
+    "type": "ClusterIP",
+    "port": 80,
+    "targetPort": 5000
+  }
+}
+  

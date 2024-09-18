@@ -17,26 +17,3 @@ readinessProbe:
   httpGet:
     path: /readyz
     port: http
-
-ingress:
-  enabled: true
-  className: ""
-  annotations:
-    kubernetes.io/ingress.class: nginx
-  hosts:
-    - host: ldp-api-identity.main.local
-      paths:
-        - path: /
-          pathType: Prefix
-          backend:
-            service:
-              name: main-ldp-api-identity 
-              port:
-                number: 80
-        - path: /swagger
-          pathType: Prefix
-          backend:
-            service:
-              name: main-ldp-api-identity 
-              port:
-                number: 80

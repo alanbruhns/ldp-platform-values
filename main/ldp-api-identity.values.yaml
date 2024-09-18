@@ -27,5 +27,16 @@ ingress:
     - host: ldp-identity-api.main.local
       paths:
         - path: /
-          pathType: ImplementationSpecific
-  tls: []
+          pathType: Prefix
+          backend:
+            service:
+              name: main-ldp-api-identity 
+              port:
+                number: 80
+        - path: /swagger
+          pathType: Prefix
+          backend:
+            service:
+              name: main-ldp-api-identity 
+              port:
+                number: 80

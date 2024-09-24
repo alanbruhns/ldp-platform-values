@@ -1,5 +1,3 @@
 environment: develop
 
 apps:
-  - ldp-api-identity
-  - ldp-api-hello

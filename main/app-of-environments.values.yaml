@@ -1,5 +1,4 @@
 environment: main
 
 apps:
-  - ldp-api-identity
   - ldp-api-hello

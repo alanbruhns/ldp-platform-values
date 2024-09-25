@@ -2,3 +2,4 @@ environment: main
 
 apps:
   - ldp-api-hello
+  - ldp-api-hi

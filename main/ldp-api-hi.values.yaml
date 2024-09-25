@@ -3,7 +3,7 @@ imagePullSecrets:
 
 image:
   repository: docker.io/alanbruhns/ldp-api-hi
-  tag: 1.0.7
+  tag: 1.0.8
 
 service:
   type: ClusterIP
